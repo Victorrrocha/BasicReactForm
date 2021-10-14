@@ -1,0 +1,16 @@
+.container {
+    width: 50%;
+    background-color: #6079FF;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }   
+}
+
+.paragraph{
+    text-align: left;
+    color: white;
+    margin-bottom: 1em;
+}

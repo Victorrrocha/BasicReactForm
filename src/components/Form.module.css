@@ -1,0 +1,74 @@
+.container {
+    background-color: white;
+    width: 50%;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }   
+}
+
+.fieldGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    margin-bottom: .5rem;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.emailLine {
+    margin-bottom: 1rem;
+}
+
+.fieldGroup label {
+    color: rgb(68, 68, 68);
+}
+
+.fieldGroup input {
+    padding: 0.5em .5em;
+    font-size: 1rem;
+    border: 1.5px solid rgba(128, 128, 128, 0.363);
+}
+
+.fieldGroup input:focus {
+    background-color: rgba(96, 120, 255, 0.24);
+    
+    border: none;
+    outline: 1px solid gray;
+}
+
+.fieldGroup p {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.half {
+    width: 48%;
+}
+
+.full {
+    width: 100%;
+}
+
+.TermsContainer {
+    display: flex;
+    align-items: center;
+}
+
+.TermsContainer input {
+    margin-right: .5em;
+}
+
+.TermsContainer span {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #6079FF;
+}

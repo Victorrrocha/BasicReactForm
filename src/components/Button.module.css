@@ -1,0 +1,12 @@
+.btn {
+    display: inline-block;
+    width: fit-content;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 5px 10px rgba(59, 59, 59, 0.247);
+
+    transition: all 300ms;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
